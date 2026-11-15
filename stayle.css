@@ -1,0 +1,1035 @@
+@font-face{
+    font-family: "Old Standard TT";
+    src: url(old-standard-tt-regular5\ \(1\).ttf) format("truetype");
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "Old Standard TT";
+    src: url(Old\ Standard\ TT\ Bold.woff) format("truetype");
+    font-weight: bold; 
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url(roboto-regular.ttf) format("truetype");
+    font-weight: normal;  
+}
+
+body{
+    font-family: 'Old Standard TT';
+    font-weight: bold;
+}
+html{
+    scroll-padding-top: 100px;
+}
+
+
+
+
+/* Шапка */
+header{
+    background-color: #002D18;
+    padding-bottom: 0px; 
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:  sticky;   
+    top: 0;            
+    left: 0;
+    width: 100%;      
+    z-index: 1000; 
+}
+
+/* Поиск */
+.poisk{
+    background-color:#F3F2E1 ;
+    width: 1020px;
+    height: 46px;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;     
+    align-items: center;          
+}
+
+/* Сам текст "Поиск" */
+.poisk p{
+    color: #002D18;
+    margin: 0;                    
+    padding-left: 30px;           
+    width: 100%;                 
+}
+
+/* Навигация */
+nav a{
+    color: #F3F2E1;
+    text-decoration: none;
+    padding: 0px 30px;
+    
+}
+nav a:hover {
+    color: #E7730A;             /* оранжевый при наведении */
+}
+
+
+/* Номер телефона в навигации  */
+header p a{
+    color: #E7730A;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;             
+    justify-content: center;   
+    align-items: center;        
+    gap: 40px;                   
+}
+
+/* 1 экран ------------------------------------------------------------------------- */
+
+/* Целиком  */
+.screen111{
+    background-image: url(screen1.png);
+    background-size: cover;              /* картинка на весь блок */
+    background-position: center;         /* по центру */
+    background-repeat: no-repeat;        /* не повторять */
+    height: 742px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Шрифт заголовка */
+.screen111 h1{
+    color: #F3F2E1;
+    text-align: center;   /* по центру */
+    font-family: "Old Standard TT";
+    font-size: 60px;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+/* Позаголовок */
+.screen111 p{
+    color: #F3F2E1;
+    font-family: "Old Standard TT";
+    font-weight: normal;
+    font-size: 30px; 
+    margin-top: 0;   
+}
+/* Кнопка "Обсудить встречу" */
+.screen111 button{
+    color: #002D18;
+    background-color: #F3F2E1;
+    width: 346px;
+    height: 76px;
+    margin-top: 250px;
+    font-family: "Old Standard TT";
+    font-weight: normal;
+    font-size: 30px;
+    
+}
+/* 2 экран ------------------------------------------------------------------------------- */
+
+.screen222{
+    background-color: #002D18;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.screen222 h1{
+    color: #F3F2E1;
+    font-family: "Old Standard TT";
+    font-weight: normal;
+    font-size: 60px;
+}
+
+
+/* Все карточки ЗАГОЛОВОК */
+.sc2 h3{
+    color: #F3F2E1;
+    margin-left: 30px;
+    font-family: "Old Standard TT";
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.sc2 p{
+    background-color: #F3F2E1;
+    color: #002D18;
+    width: 380px;
+    height: auto;
+    border-radius: 45px;
+    padding: 40px;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 25px;
+    
+}
+
+/* Для 2х столбов */
+.card222{
+    display: flex;
+    gap: 20px;
+}
+
+/* адпись под столбами кнопка и подпись */
+.buton222{
+    display: flex;
+    gap: 30px;
+}
+
+/* Шрифт подписи */
+.buton222 p{
+    color: #F3F2E1;
+}
+
+/* Кнопка */
+.buton222 button{
+    color: #F3F2E1;
+    background-color: #E7730A;
+    width: 430px;
+    height: 72px;
+    font-family: "Old Standard TT";
+    font-weight: normal;
+    font-size: 30px;
+    
+}
+
+.buton222{
+    font-family: "Old Standard TT";
+    font-weight: normal;
+    font-size: 30px;
+
+}
+
+/* 3 экран --------------------------------------- */
+
+.screen333{
+    background-color: #F3F2E1;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.screen333 h1{
+    font-family: "Old Standard TT";
+    font-weight: bold;
+    font-size: 60px;
+    color: #002D18;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.bortik{
+    border-bottom: 10px dotted #002D18;
+    border-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screen333 h3{
+    font-family: "Old Standard TT";
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+
+.twocard{
+
+    border-bottom:10px dotted #002D18;
+    padding: 7px 0;
+    display: flex;
+    gap: 50px;
+    flex-direction: row
+}
+
+
+
+.card3{
+    width: 480px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+
+.cardall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card3 button{
+    width: 451px;
+    height: 51px;
+    color: #F3F2E1;
+    background-color: #002D18;
+}
+
+.q{
+    font-size: 20px;
+}
+
+.prace{
+    font-size: 25px;
+
+}
+
+.robo{
+    color: #002D18;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 25px;
+
+}
+
+.zel{
+    color: #002D18;
+    
+}
+
+.card3 button{
+    font-family: "Old Standard TT";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* ------4 экран--------------------------------- */
+
+.screen444{
+    background-color: #F3F2E1;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.sc41 h1{
+    
+    color: #F3F2E1;
+    font-family: "Old Standard TT";
+    font-size: 60px;
+    font-weight: normal;
+    padding-left: 0px;
+    text-align: left;
+    width: 1000px;
+    padding-top: 50px;
+      
+}
+    /* полосочка */
+.sc41{
+    background-color: #002D18;
+    height: 235px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.work{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.work-row{
+    display: flex;
+    border-bottom: 10px dotted #002D18;
+    padding: 7px 0;
+}
+
+.work-title{
+    width: 50%;
+    padding-right: 0px;     
+    border-right: 10px dotted #002D18;  
+    box-sizing: content-box;
+}
+
+.work-title p{
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: normal;
+    color: #002D18;
+}
+
+.work-title h4{
+    color: #002D18;
+    font-family: "Old Standard TT";
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.work-text{
+    width: 50%;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.work-text p{
+    color: #002D18;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: normal;
+}
+/* -----------qr */
+.work-note{
+    color: #E7730A;
+    text-align: center;
+    font-family: "Old Standard TT";
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.qr img{
+    width: 328px;
+    height: 328px;
+    margin: 20px auto 40px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #002D18;
+    font-family: "Roboto";
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* ------ 5 экран: Портфолио ------------------------------- */
+
+.screen555{
+    background-color: #002D18;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screen555 h1{
+    color: #F3F2E1;
+    font-family: "Old Standard TT";
+    font-size: 60px;
+    font-weight: normal;
+    width: 1050px;
+    margin-bottom: 50px;
+}
+
+
+
+.portfolio-text{
+    width: 473px;
+    height: 473px;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* по горизонтали */
+    align-items: center;
+}
+
+.portfolio-text p{
+    color: #F3F2E1;
+    font-family: "Old Standard TT";
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.photo-block{
+    width: px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 столбца */
+    grid-template-rows: repeat(3, auto);   /* 3 строки */
+    gap: 60px; 
+    margin-bottom: 200px;
+    
+}
+
+.deli{
+    width: 1058px;
+    height: 3px;
+    background-color: #F3F2E1;
+    margin-bottom: 200px;
+}
+
+
+.insta p{
+    color: #E7730A;
+    font-size: 30px;
+    font-family: "Old Standard TT";
+    font-weight: bold;
+}
+
+.insta{
+    background-color: #F3F2E1;
+    width: 100%;
+    height: 53px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.insta img{
+    width: 37px;
+    height: 37px;
+}
+
+
+
+
+
+/* ------ 6 экран: Почта ----------------------------------- */
+
+.mail{
+    background-color: #002D18;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.mail h1{
+    color: #F3F2E1;
+    font-family: "Old Standard TT";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mail-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail-form input{
+    width: 720px;
+    height: 85px;
+    background-color: #F3F2E1;
+    border: none;
+    padding-left: 15px;
+    font-family: "Old Standard TT";
+    font-size: 30px;
+}
+
+.mail-form button{
+    width: 720px;
+    height: 85px;
+    margin-top: 20px;
+    background-color: #E7730A;
+    color: #F3F2E1;
+    border: none;
+    font-family: "Old Standard TT";
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+
+/* ------ 7 экран: Заявка ------------------------------- */
+
+.application{
+    background-color: #F3F2E1;
+    padding: 170px 0 170px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.application h1{
+    color: #002D18;
+    font-family: "Old Standard TT";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.application-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.application-form input{
+    height: 85px;
+    width: 720px;
+    margin-top: 15px;
+    background-color: #F3F2E1;
+    border-bottom: 1px solid #002D18;
+    font-family: "Old Standard TT";
+    font-size: 30px;
+}
+
+.application-form button{
+    width: 720px;
+    height: 85px;
+    margin: 25px auto 0 auto;
+    background-color: #E7730A;
+    color: #F3F2E1;
+    border: none;
+    font-family: "Old Standard TT";
+    font-size: 30px;
+}
+
+/* ------подвальчик------------ */
+footer{
+    background-color: #002D18;
+    height: 170px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+footer p{
+    color: #E7730A;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: normal;
+    width: auto;  
+}
+
+   /* МОБИЛКА */
+@media (max-width: 420px) {
+
+    /* ============ ШАПКА ============ */
+    header {
+        padding-top: 8px;
+    }
+
+
+    .poisk {
+        width: calc(100% - 20px);
+        height: 15px;
+        border-radius: 8px;
+    }
+
+    .poisk p {
+        font-size: 8px;
+        padding-left: 10px;
+        line-height: 15px;
+    }
+
+    /* Навигация — в одну строку */
+    .menu {
+        
+        gap: 3px;
+        padding: 3px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+   
+
+    nav a {
+        font-size: 10px;
+        padding: 2px 3px;          
+    }
+
+    header p a {
+        font-size: 10px;
+    }
+
+    /* ------------------------------- */
+
+.screen111 {
+        height: auto;
+        min-height: 216px;
+        padding: 20px 10px;
+        background-color: #002D18;
+        background-size: 420px 216px;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+
+    .screen111 h1 {
+        font-size: 30px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .screen111 p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .screen111 button {
+        width: 90%;
+        max-width: 280px;
+        height: 35px;
+        font-size: 10px;
+        margin-top: 30px;
+    }
+
+    /* ============ 2 ЭКРАН ============ */
+    .screen222 h1 {
+        font-size: 23px;
+        text-align: left;
+        padding: 0 10px;
+        width: 300px;
+    }
+
+    .card222 {
+        flex-direction: column;
+        align-items: center;        
+        gap: 20px;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .card222 > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        gap: 20px;
+    }
+
+    .sc2 {
+        width: 200px;               
+    }
+
+    .sc2 h3 {
+        font-size: 20px;
+        text-align: left;           
+        margin: 0 0 8px 0;
+    }
+
+    .sc2 p {
+        width: 200px;               
+        height: auto;               
+        font-size: 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        text-align: left; 
+        border-radius: 20px;          
+    }
+
+    .buton222 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .buton222 p {
+        font-size: 10px;
+    }
+
+    .buton222 button {
+        width: 200px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+
+    /* ============ 3 ЭКРАН ============ */
+    .screen333 h1 {
+        width: 300px !important;   
+        font-size: 23px;
+        text-align: left;           
+        padding: 0;
+        margin: 0 auto;             
+        box-sizing: border-box;
+    }
+
+    .bortik {
+        border-bottom: none !important;
+        align-items: center;       
+    }
+
+    .twocard {
+        flex-direction: column;
+        align-items: center;        
+        gap: 25px;
+        padding: 15px 0;
+        border: none !important;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .card3 {
+        width: 300px !important;    
+        max-width: 300px !important;
+        border: none !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;    
+        text-align: left;
+        position: relative;
+        padding-right: 50px;
+        box-sizing: border-box;
+        margin-bottom: 60px;
+        
+    }
+
+    .screen333 h3 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .q,
+    .robo,
+    .prace {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .card3 img {
+    position: absolute;
+    max-width: 170px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+
+.card3 img.ig1 {
+    transform: translate(150px, -60px) !important;
+
+}
+
+.card3 img.ig2 {
+    transform: translate(130px, -50px) !important;
+
+}
+
+.card3 img.ig3 {
+    transform: translate(180px, -40px) !important;
+    max-width: 100px;
+
+}
+
+.card3 img.ig4 {
+    transform: translate(180px, -30px) !important;
+    max-width: 100px;
+
+}
+
+.card3 img.ig5 {
+    transform: translate(160px, -30px) !important;
+    max-width: 120px;
+
+}
+
+.card3 img.ig6 {
+    transform: translate(170px, -50px) !important;
+    max-width: 110px;
+}
+
+.card3 img.ig7 {
+    transform: translate(150px, -40px) !important;
+    max-width: 110px;
+
+}
+
+    .card3 button {
+        display: block;
+        width: 150px !important;          
+        height: 30px;
+        font-size: 15px;
+        transform: none !important;       
+        margin: 15px 0 0 0 !important;        
+    }
+
+
+    /* ============ 4 ЭКРАН ============ */
+    .sc41 {
+        height: auto;
+        padding: 20px 0;
+        align-items: center;
+    }
+
+    .sc41 h1 {
+        width: 300px !important;    
+        font-size: 23px;
+        text-align: left;           
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .work {
+        width: 300px;              
+        margin: 0 auto;             
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .work-row {
+        flex-direction: row;
+        border: none !important;    
+        padding: 15px 0;
+        margin-top: 0 !important;
+    }
+
+    .work-title {
+        width: 50%;
+        border-right: 3px dotted #002D18;
+        border-bottom: none;
+        padding-right: 5px;
+        box-sizing: border-box;
+    }
+
+    .work-title h4 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .work-title p {
+        font-family: "Roboto";
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .work-text {
+        width: 50%;
+        margin-left: 0;
+        padding-left: 8px;
+        padding-top: 0;
+        box-sizing: border-box;
+    }
+
+    .work-text p {
+        font-family: "Roboto";
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .work-note {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .qr img {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    /* ============ 5 ЭКРАН — ПОРТФОЛИО ============ */
+    .screen555 h1 {
+        width: 300px;
+        font-size: 23px;
+        text-align: left;
+        padding: 0 10px;
+    }
+
+    .deli {
+        width: 100%;             
+        margin-bottom: 40px;
+    }
+
+    .photo-block {
+        grid-template-columns: 273px;   
+        grid-template-rows: auto;
+        justify-content: center;
+        justify-items: center;
+        gap: 15px;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .photo-block > img,
+    .photo-block > .photo > img {
+        width: 273px;
+        height: 273px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .portfolio-text {
+        width: 273px;
+        height: 273px;
+    }
+
+    .portfolio-text p {
+        font-size: 20px;
+    }
+
+    .insta p {
+        font-size: 10px;
+    }
+
+
+    /* ============ 6 ЭКРАН (почта) ============ */
+    .mail {
+        padding: 20px 10px;
+    }
+
+    .mail h1 {
+        font-size: 20px;
+        width: 300px;
+        font-weight: normal;
+    }
+
+    .mail-form input,
+    .mail-form button {
+        width: 200px;
+        height: 20px;
+        font-size: 10px;
+        padding: 0 5px;
+        box-sizing: border-box;
+    }
+
+    .mail-form button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    /* ============ 7 ЭКРАН (заявка) ============ */
+    .application {
+        padding: 30px 10px;
+    }
+
+    .application h1 {
+        font-size: 20px;
+    }
+
+    .application-form input,
+    .application-form button {
+        width: 200px;
+        height: 20px;
+        font-size: 10px;
+        padding: 0 5px;
+        box-sizing: border-box;
+        margin-top: 5px;
+    }
+
+    .application-form button {
+        margin: 10px auto 0;
+    }
+
+
+    /* ============ ПОДВАЛ ============ */
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
